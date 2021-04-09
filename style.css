@@ -5,6 +5,7 @@
   background-color: rgb(230, 166, 84);
   height: 50px;
   text-align: center;
+  background-image: url("/images/Moaminnn.jpg");
 }
 .img1 {
   width: 50px;
@@ -21,10 +22,21 @@
   float: right;
 }
 .body {
+  width: 50%;
+  height: 600px;
   background-color: rgb(195, 235, 236);
   margin: 0px;
   text-align: center;
-  height: 500px;
+}
+.body2 {
+  width: 50%;
+  height: 600px;
+  background-color: rgb(174, 218, 149);
+  margin: 0px;
+  text-align: center;
+  float: right;
+  position: relative;
+  top: -600px;
 }
 .img2 {
   border: 5px solid black;
@@ -33,21 +45,31 @@
   left: 50%;
   position: static;
 }
+.img3 {
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  position: static;
+}
 .footer {
+  width: auto;
   background-color: antiquewhite;
-  padding: 0px;
-  margin: 0px;
   text-align: center;
 }
 .LinksBody {
-  background-color: rgb(195, 235, 236);
   margin: 0px;
   text-align: center;
   height: 500px;
+  background-image: url("/images/IMG_8143.jpg");
 }
 .ContactBody {
-  background-color: rgb(195, 235, 236);
   margin: 0px;
-  text-align: center;
   height: 500px;
+  text-align: center;
+  background-image: url("/images/IMG_8143.jpg");
+}
+img.logo {
+  width: 30px;
 }
